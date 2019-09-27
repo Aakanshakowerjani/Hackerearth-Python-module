@@ -1,0 +1,19 @@
+    c=input()
+    l=[]
+    x='a'
+    for i in c:
+        if(i=='G'):
+            l.append('C')
+        elif (i=='C'):
+            l.append('G')
+        elif(i=='T'):
+            l.append('A')
+        elif(i=='A'):
+            l.append('U')
+        else:
+            x='b'
+            break
+    if x=='b':
+        print('Invalid Input')
+    else:
+        print(''.join(l))
