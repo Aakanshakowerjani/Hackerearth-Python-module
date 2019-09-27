@@ -1,0 +1,4 @@
+    s='FGHIJKLMNOP'
+    for i in s:
+        print(ord(i))
+        
