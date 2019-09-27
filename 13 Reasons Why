@@ -1,0 +1,10 @@
+    l=list(map(int,input().split()))
+    a=l[0]
+    b=l[1]
+    c=l[2]
+    t=a
+    a=b
+    b=t
+    a*=c
+    b+=c
+    print(a,b)
